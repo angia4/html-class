@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="my.css" >
     <title>About Page</title>
 </head>
 <body>
-   <div>
-     <h1><i>About Angela</i></h1>
+   <div class="intro">
+    <br/><br/><br/><br/><br/> <!--before you can use the css border-radius for the image, it is necessary for the image to have a parent HTML element aka a wrapper.i.e the span element-->
+     <span class="circle-image">    
      <img src="https://res.cloudinary.com/dr6ntpbts/image/upload/v1637918853/Angela_1_yhuxy9.jpg" width= "150" height="200" alt ="a headshot of Angela">
-     <p><b>Hi everyone! My name is Angela Ahlijah, a Ghanaian-based Civil Engineer.</b>
+    </span>
+    <h1><i>About Angela</i></h1>
+     <p class=><b>Hi everyone! My name is Angela Ahlijah, an aspiring software developer and a Ghanaian-based Civil Engineer.</b>
     </p>
     <p>
      I recently started learning Web Development and I must say, the journey has been great so far. I intend to channel the skills gained into solving problems and making systems more efficient. 
     </p> 
-    </div>
-    <div>
-    <h4>Three important things you need to know about me:</h4>
+    </div >
+    <div class= "bod">
+    <h4>Three important things to know about me?</h4>
     <ol>
         <li>Driven</li>
         <li>Dedicated</li>
@@ -29,7 +33,23 @@
         <li>Reading <a href="https://www.amazon.com/books-used-books-textbooks/b?node=283155">books</a> </li>
         <li>Listening to <a href ="https://open.spotify.com/"> music</a> </li> 
        </ul>
-    </div> <br/><br/><br/><br/><br/><br/><br/>
+    </div> 
+    <div class="question"><br/><br/><br/><br/>
+        <h4>Contact Me</h4>
+        <p>If you have any questions/comments or just want to say "Hi", feel free to fill the form below or better still you can follow me on twitter or both.</p>
+        <a href=https://twitter.com><img src="https://res.cloudinary.com/dr6ntpbts/image/upload/v1637963358/twiiter_jiflrp.png" width= "20" height="20" alt ="twitter">@z_afua</a>
+        <br/><br/> 
+    <form>
+        <label>Your Name</label>
+        <input type="text"><br/>
+        <label>Email address</label>
+        <input type="text"><br/>
+        <label>Your message</label>
+        <input type="text"><br/><br/>
+        <input type="submit"><br/>
+    </form></div>
+    
+    <br/><br/><br/><br/><br/><br/><br/>
     <i>"It always seems impossible until it's done" - <b>Nelson Mandela</b></i>
     </body>
 </html>
